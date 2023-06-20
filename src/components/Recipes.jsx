@@ -1,15 +1,12 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
-import Footer from './Footer'
+
 
 function Recipes(props) {
-  // const {recipes} = props
   return (
     <div>
       <div className="  ">
         <div className="row">
           <h1 className='text-center my-3 text-light '>All Food Recipe</h1>
-          {/* <div className=' text-center '><Link className='text-light' to="/click">Click Here For Discount (only my Friends)</Link></div> */}
           {
             props.food.map((value, index) => {
               return (
